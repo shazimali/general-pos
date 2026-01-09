@@ -15,11 +15,12 @@ class CurrencyDatabaseSeeder extends Seeder
      *
      * @return void
      */
-    public function run() {
+    public function run()
+    {
         Currency::create([
-            'currency_name'      => 'US Dollar',
-            'code'               => Str::upper('USD'),
-            'symbol'             => '$',
+            'currency_name'      => 'PAK Rupee',
+            'code'               => Str::upper('PKR'),
+            'symbol'             => 'PKR',
             'thousand_separator' => ',',
             'decimal_separator'  => '.',
             'exchange_rate'      => null
